@@ -4,13 +4,25 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
+    <string name="auto_uno">Hyundai H1</string>
+    <string name="auto_dos">Hyundai SANTA FE</string>
+    <string name="auto_tres">Hyundai CRETA</string>
+    <string name="auto_cuatro">Hyundai ELANTRA</string>
+    <string name="auto_cinco">Hyundai GRAND i10 SEDAN</string>
+
+    <string name="descrip_uno">Su aspecto sólido y decidido, su diseño renovado y moderno, su equipamiento y su amplio espacio de carga, sus bajos costos de operación y su alto grado de refinamiento, lo convierte en el socio más confiable para su negocio.</string>
+    <string name="descrip_dos">Las SUV familiares no necesitan ser aburridas. Una amplia parrilla de cromo en cascada y rines de aleación de 19 pulgadas hacen que el nuevo SUV sea un diseño único y audaz. Además, las luces compuestas le dan al automóvil un atractivo de alta tecnología.</string>
+    <string name="descrip_tres">Líneas del capó plegadas suavemente y un parachoques voluminoso marcan una primera impresión dramática. La rejilla cromada de línea hexagonal triple de última generación evoca un avión y no sólo se ve bien, sino que permite una conducción más dinámica.</string>
+    <string name="descrip_cuatro">Elantra se enfrenta con el desafío de superar las expectativas de conductores modernos con tecnología de punta que se convierte en una extensión de usted mismo.</string>
+    <string name="descrip_cinco">La mejor descripción del interior del Hyundai Grand i10 sedán es moderno y práctico a la vez. La luminosa y espaciosa cabina, junto a su cuidadosa confección con materiales de alta calidad establece la escena para muchas aventuras urbanas.</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_inicio">Inicio</string>
     <string name="title_pedidos">Pedidos</string>
     <string name="title_about">Acerca De</string>
     <string name="title_card">Titulo</string>
-    <string name="descripcion">Descripcion</string>
+    <string name="descripcion">Las imágenes son meramente referenciales, el vehículo puede variar según el mercado donde se comercializa.</string>
 
     <string name="title_activity_splash">Splash</string>
     <string name="dummy_button">Dummy Button</string>

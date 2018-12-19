@@ -30,7 +30,7 @@ public class AcercaDe extends Fragment {
         View v = inflater.inflate(R.layout.fragment_acerca_de, container, false);
         ImageView footer = v.findViewById(R.id.footer);
         ImageView ic = v.findViewById(R.id.ic_descripcion);
-        Glide.with(getContext()).load(R.drawable.auto).into(footer);
+        Glide.with(getContext()).load(R.drawable.logo).into(footer);
         Glide.with(getContext()).load(R.drawable.auto).into(ic);
         return v;
     }

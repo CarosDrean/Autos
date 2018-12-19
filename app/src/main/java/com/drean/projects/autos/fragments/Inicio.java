@@ -117,7 +117,10 @@ public class Inicio extends Fragment {
     public void inicializar(){
         autos = new ArrayList<>();
 
-        autos.add(new Auto("Nombre", R.drawable.auto, 50.00, "Descripcion"));
-        autos.add(new Auto("Nombre2", R.drawable.auto, 50.00, "Descripcion2"));
+        autos.add(new Auto(getString(R.string.auto_uno), R.drawable.autouno, 33000.00, getString(R.string.descrip_uno)));
+        autos.add(new Auto(getString(R.string.auto_dos), R.drawable.autodos, 44000.00, getString(R.string.descrip_dos)));
+        autos.add(new Auto(getString(R.string.auto_tres), R.drawable.autotres, 50000.00, getString(R.string.descrip_tres)));
+        autos.add(new Auto(getString(R.string.auto_cuatro), R.drawable.autocuatro, 60000.00, getString(R.string.descrip_cuatro)));
+        autos.add(new Auto(getString(R.string.auto_cinco), R.drawable.autocinco, 70000.00, getString(R.string.descrip_cinco)));
     }
 }

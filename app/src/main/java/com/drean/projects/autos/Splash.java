@@ -2,13 +2,18 @@ package com.drean.projects.autos;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Color;
+import android.media.Image;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.bumptech.glide.Glide;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -82,6 +87,9 @@ public class Splash extends AppCompatActivity {
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
+
+        ImageView imagen = findViewById(R.id.fullscreen_content);
+        Glide.with(this).load(R.drawable.jaguar).into(imagen);
 
 
         // Set up the user interaction to manually show or hide the system UI.
